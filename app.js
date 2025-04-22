@@ -34,6 +34,7 @@ function deg2rad(deg) {
       user: process.env.DB_USER,
       password: process.env.DB_PASSWORD,
       database: process.env.DB_NAME,
+      port: 3306
     });
 
     console.log('database connected successfully');
